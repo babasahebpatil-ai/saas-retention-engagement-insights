@@ -1,0 +1,29 @@
+{
+  "input_rows": 1083,
+  "output_rows": 1083,
+  "input_columns": 9,
+  "output_columns": 9,
+  "missing_cells": 0,
+  "duplicate_full_rows": 0,
+  "duplicate_institution_ids": 0,
+  "extra_identical_feature_rows": 866,
+  "extra_identical_features_and_label_rows": 861,
+  "all_six_counts_zero": 502,
+  "all_seven_indicators_zero": 486,
+  "constant_features": [
+    "attendance_count",
+    "assessment_count"
+  ],
+  "source_md5": "5e9482aa466382c3121394245d9b8bf1",
+  "source_sha256": "dccc686ee83c109f6fb59f61c8356b41fb240be123a01dc6b8c5a600b14ec1d0",
+  "rows_removed": 0,
+  "cells_imputed": 0,
+  "values_changed": 0,
+  "decision": "Preserve every source value. Valid unique institutions can share identical zero-heavy profiles.",
+  "publication_date": "2026-08-02",
+  "observation_window_end": "Before 2026-05-01, reported by source README; not independently reconstructable.",
+  "observation_window_start": "Not supplied",
+  "outcome_window": "Not supplied",
+  "label_rule": "Future inactivity, according to source; exact threshold and SQL not supplied.",
+  "engagement_score_formula": "Not supplied"
+}

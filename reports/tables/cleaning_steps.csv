@@ -1,0 +1,5 @@
+step,rows_before,rows_after,rows_removed,cells_changed
+Parse and validate nine numeric columns,1083,1083,0,0
+Check unique institution grain; preserve matching profiles,1083,1083,0,0
+Flag zero-heavy and opaque score fields; do not overwrite,1083,1083,0,0
+Write clean typed CSV; verify unchanged values,1083,1083,0,0

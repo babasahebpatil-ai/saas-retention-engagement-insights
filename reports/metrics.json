@@ -1,0 +1,11 @@
+{
+  "institutions": 1083,
+  "unique_institutions": 1083,
+  "churn_labelled": 1017,
+  "active_labelled": 66,
+  "churn_label_share_pct": 93.90581717451524,
+  "recorded_students": 10213,
+  "recorded_teachers": 846,
+  "recorded_classes": 1313,
+  "recorded_materials": 108
+}

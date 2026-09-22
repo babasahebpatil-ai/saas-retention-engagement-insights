@@ -1,0 +1,26 @@
+{
+  "status": "NOT_TRAINED",
+  "decision": "Descriptive analysis only; future-churn validity cannot be independently established.",
+  "source_claim": "README says observation ends before 2026-05-01 and labels reflect future inactivity.",
+  "missing_evidence": [
+    "Exact inactivity threshold and qualifying events",
+    "Label observation start/end and full follow-up",
+    "Per-institution feature cutoff/eligibility/tenure",
+    "Engagement score formula and timestamp lineage"
+  ],
+  "excluded_from_any_future_model": [
+    "institution_id",
+    "churn_label",
+    "attendance_count (constant)",
+    "assessment_count (constant)",
+    "engagement_score until formula/lineage is verified"
+  ],
+  "time_split_possible": false,
+  "cohort_analysis_possible": false,
+  "reference_only_always_churn_accuracy_pct": 93.90581717451524,
+  "reference_only_always_churn_active_recall_pct": 0,
+  "reference_note": "Arithmetic prevalence baseline across the full snapshot, not a trained or held-out model.",
+  "model_comparison": "Not produced",
+  "shap": "Not produced",
+  "measured_retention_improvement": null
+}

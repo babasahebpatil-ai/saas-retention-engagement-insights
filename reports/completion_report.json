@@ -1,0 +1,35 @@
+{
+  "deliverable_completion": {
+    "completed": 12,
+    "total": 12,
+    "percentage": 100,
+    "scope": "Requested descriptive fallback; modelling conditional on valid data"
+  },
+  "business_question_coverage": {
+    "answered": 2,
+    "total": 4,
+    "percentage": 50,
+    "definition": "Equally weighted explicit questions, not percentage of churn prevented"
+  },
+  "measured_retention_improvement": null,
+  "manual_chart_review": {
+    "status": "PASS",
+    "review": "Readability, labels, units, denominators, footnotes and clipping inspected",
+    "sha256_by_file": {
+      "01_data_quality.png": "92fd9a0150bb6a05ec932561203025183343f0dc74b5bce9bb1b77a3e1214eab",
+      "02_churn_labels.png": "8d395563d0307377c76618c9aec33b6016f4b80d9b4efb8e2bd4a93a7c04d7fc",
+      "03_engagement_comparison.png": "8befb154a619686be1643092fe6093f3a381b7049238b02d71e4d0db1b242d3d",
+      "04_student_segments.png": "e17dbf57859059443ea2fe9ff52ae22cc8eb168c7c8e7758e70fadbc86c4747b",
+      "05_engagement_distributions.png": "c494489dd4d3a496d5c28efaca1b61b6a0a0102c656b4ce5bc9cfc170b98400a",
+      "06_review_workload.png": "ae95f2cb762fc766c745246ecab51065600fe5f6364515ecf36b5e11b1a97aae"
+    }
+  },
+  "sql_pandas_comparisons_passed": 130,
+  "executed_notebook_cells": 8,
+  "unresolved": [
+    "Exact observation start and future outcome dates",
+    "Complete inactivity label rule and engagement score lineage",
+    "Prediction validity",
+    "Causal retention impact"
+  ]
+}

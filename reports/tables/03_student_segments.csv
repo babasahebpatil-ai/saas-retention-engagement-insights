@@ -1,0 +1,5 @@
+student_band,band_order,institutions,churn_labelled,active_labelled,churn_label_share_pct,share_of_churn_labels_pct
+0,1,737,732,5,99.32157395,71.97640118
+1-10,2,250,240,10,96,23.59882006
+11-50,3,46,29,17,63.04347826,2.85152409
+51+,4,50,16,34,32,1.573254671

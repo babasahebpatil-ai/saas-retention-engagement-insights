@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sql_pandas_comparisons": 130,
+  "source_checksum": "PASS",
+  "row_value_preservation": "PASS",
+  "student_segment_reconciliation": "PASS",
+  "images_readable_files": 6,
+  "validation_failure_cases": 4,
+  "legitimate_matching_profiles": "PASS",
+  "no_unsupported_models": "PASS"
+}
