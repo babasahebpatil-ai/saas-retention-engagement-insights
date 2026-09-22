@@ -4,7 +4,6 @@ SaaS Retention & Engagement Insights is an end-to-end **descriptive data analyti
 
 The project uses **Python and Pandas** for validation and analysis, **DuckDB SQL** for business queries, and **Matplotlib / Seaborn** for evidence-based visual reporting. Predictive modelling was assessed but intentionally withheld because the released snapshot does not provide enough temporal information to independently validate a future-churn target.
 
-![Churn Label Distribution](images/02_churn_labels.png)
 
 ## 🎯 Business Problem
 
@@ -149,6 +148,7 @@ Because the released source is a single institution-level table, artificial join
 ### Student-size segments
 
 ![Student Segments](images/04_student_segments.png)
+![Churn Label Distribution](images/02_churn_labels.png)
 
 All six project charts are stored in the `images/` directory, and their underlying CSV evidence is documented in `reports/tables/figure_index.csv`.
 
